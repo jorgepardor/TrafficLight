@@ -1,12 +1,41 @@
+.trafficLight {
+    width: 200px;
+    height: 600px;
+    background-color: #333333;
+    margin: auto;
+    border-radius: 20px;
+}
 
-/* 
+.light {
+    border-radius: 100%;
+    width: 92%;
+    height: 30%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.red {
+    background-color: #42030e;
+}
 
-*/
+.yellow {
+    background-color: #7e6007;
+}
+
+.green {
+    background-color: #17441b;
+}
+
+.active {
+    box-shadow: 0px 0px 68px 6px #3399CC;
+}
+
+.redOn {
+    background-color: #c40528;
+}
+
+.yellowOn {
+    background-color: #F2B90F;
+}
+
+.greenOn {
+    background-color: #45d451;
+}
